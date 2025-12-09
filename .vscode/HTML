@@ -1,8 +1,8 @@
 repair-agent/
 ├─ backend/
-│  ├─ package.json{
-  "name": "repair-agent-backend",
-  "version": "1.0.0",
+│  ├package.json{
+  "name"; "repair-agent-backend",
+  "version"; "1.0.0",
   "description": "Repair Agent Pro - backend server",
   "main": "server.js",
   "scripts": {
@@ -25,7 +25,7 @@ repair-agent/
   }
 }
 
-│  ├─ server.js// server.js
+│   ├─ server.js// server.js
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
